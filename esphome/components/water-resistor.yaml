@@ -52,7 +52,7 @@ binary_sensor:
     name: "Water sensor status"
     internal: False
     pin:
-      number: D2
+      number: D6
       allow_other_uses: true
       inverted: true
       mode:
@@ -69,7 +69,7 @@ sensor:
     internal_filter_mode: "PULSE"
     internal_filter: 50ms
     pin: 
-      number: D2
+      number: D6
       allow_other_uses: true
       mode:
         input: true

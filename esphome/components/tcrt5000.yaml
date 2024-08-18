@@ -33,7 +33,7 @@ binary_sensor:
     name: "Water sensor status"
     internal: False
     pin:
-      number: D2
+      number: D6
       allow_other_uses: true
       inverted: true
       mode:
@@ -47,7 +47,7 @@ sensor:
 # ⬇ watermeter pulsen ⬇ #
   - platform: pulse_counter
     pin: 
-      number: D2
+      number: D6
       allow_other_uses: true
     id: watermeter_pulse
     name: "watermeter pulse"
