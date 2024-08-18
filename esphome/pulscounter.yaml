@@ -1,6 +1,6 @@
 # Delen en bewerken mag maar laat deze eerste regels staan.
 # Bron : https://www.huizebruin.nl
-# Bron File : https://github.com/huizebruin/s0tool/tree/main/esphome
+# Bron File : https://github.com/martijnhielema/s0tool-D6/tree/main/esphome
 # © Huizebruin.nl
 substitutions:
   name: s0tool-standard
@@ -18,11 +18,11 @@ esp8266:
   restore_from_flash: true
 
 dashboard_import:
-  package_import_url: github://huizebruin/s0tool/esphome/pulscounter.yaml
+  package_import_url: github://martijnhielema/s0tool-D6/esphome/pulscounter.yaml
 
 packages:
   remote_package:
-    url: https://github.com/huizebruin/s0tool/
+    url: https://github.com/martijnhielema/s0tool-D6/
     ref: main
     files:
       - esphome/components/basis.yaml
